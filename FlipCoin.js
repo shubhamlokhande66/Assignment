@@ -1,5 +1,5 @@
 
-var toss = Math.random() ;
+var toss = Math.random()*2 ;
 var floor = Math.floor(toss)
 if(floor === 0){
     console.log(" Random Coin Value: Head")
